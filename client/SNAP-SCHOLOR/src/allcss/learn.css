@@ -1,0 +1,120 @@
+/* General container */
+.learncontainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+  font-family: "Inter", sans-serif;
+  padding: 2rem 1rem;
+}
+
+/* Heading */
+.learnheadings {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #38bdf8; /* cyan highlight */
+}
+
+/* Question + Answer compartment */
+.learncompartment {
+  width: 100%;
+  max-width: 800px;
+  background: #1e293b;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+/* Question display */
+.displayedquestion {
+  background: #334155;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  color: #f1f5f9;
+  word-wrap: break-word;
+}
+
+/* Answer box */
+.answer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.answer p {
+  background: #0f172a;
+  padding: 0.9rem 1rem;
+  border-radius: 0.75rem;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+  border-left: 4px solid #38bdf8;
+  transition: transform 0.2s ease;
+}
+
+.answer p:hover {
+  transform: translateX(5px);
+}
+
+/* Ask question input area */
+.askquestion {
+  display: flex;
+  gap: 0.8rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.askquestion .inqp {
+  flex: 1;
+  padding: 0.9rem 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: #334155;
+  color: #f8fafc;
+}
+
+.askquestion button {
+  background: #38bdf8;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.askquestion button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .learncompartment {
+    max-height: 50vh;
+    padding: 1rem;
+  }
+
+  .askquestion {
+    flex-direction: column;
+  }
+
+  .askquestion button {
+    width: 100%;
+  }
+}

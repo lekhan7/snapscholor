@@ -1,0 +1,109 @@
+/* Main container */
+.upload {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  border-radius: 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+/* Headline */
+.hedlines {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#f8ffae, #43c6ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* File input */
+.upload input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #43c6ac;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload input[type="file"]:hover {
+  background: #f0f0f0;
+  transform: scale(1.02);
+}
+
+/* Button styling */
+.extarct {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: 600;
+}
+
+.extarct:hover {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  transform: scale(1.07);
+  box-shadow: 0px 6px 15px rgba(255, 106, 0, 0.4);
+}
+
+/* Extracted text display */
+.extractedtext {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px dashed #f8ffae;
+  border-radius: 12px;
+  color: #f9f9f9;
+  font-size: 1.1rem;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+/* 🔹 Loading Spinner */
+.loading-spinner {
+  margin: 20px auto;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top: 5px solid #f8ffae;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.aians {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none; /* remove underline */
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aians:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

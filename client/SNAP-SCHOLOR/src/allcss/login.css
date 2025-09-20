@@ -1,0 +1,87 @@
+/* login.css */
+
+.main {
+  width: 400px;
+  margin: 80px auto;  /* centers with top spacing */
+ background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.main input {
+  width: 70%;
+padding:10px;
+  margin: 12px ;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+.labels{
+     font-weight: bold;
+     font-size:larger;
+     font-family: monospace
+}
+.main input:focus {
+  border-color: #f5156b;
+  box-shadow: 0 0 6px rgba(181, 53, 231, 0.904);
+}
+
+.submits {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.submits:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(102, 126, 234, 0.4);
+}
+
+.navigate {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.link {
+  margin-left: 6px;
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #764ba2;
+}
