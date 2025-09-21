@@ -4,6 +4,15 @@
 
 ---
 
+## Demo
+
+Here’s a snapshot of the app:
+
+![Snap Scholar Demo](https://github.com/lekhan7/snapscholor/blob/master/main.png)
+
+You can also add a **demo video** later using:
+
+```markdown
 ## Table of Contents
 
 - [Features](#features)  
@@ -60,13 +69,4 @@
 
 ---
 
-## Demo
-
-Here’s a snapshot of the app:
-
-![Snap Scholar Demo](https://github.com/lekhan7/snapscholor/blob/master/main.png)
-
-You can also add a **demo video** later using:
-
-```markdown
 [Watch the demo video](assets/demo.mp4)
