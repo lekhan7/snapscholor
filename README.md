@@ -12,7 +12,6 @@ Here’s a snapshot of the app:
 
 You can also add a **demo video** later using:
 
-```markdown
 ## Table of Contents
 
 - [Features](#features)  
