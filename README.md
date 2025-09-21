@@ -124,4 +124,4 @@ You can also add a **demo video** later using:
 
 ---
 
-[Watch the demo video]((https://lnkd.in/p/dsKZkEmU))
+[Watch the demo video](https://lnkd.in/p/dsKZkEmU)
